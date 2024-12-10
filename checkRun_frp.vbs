@@ -9,7 +9,7 @@ Dim isRunning
 isRunning = False
 
 For Each objProcess In colProcess
-    If InStr(objProcess.CommandLine, "strat_frp.bat") > 0 Then
+    If InStr(objProcess.CommandLine, "start_frp.bat") > 0 Then
         isRunning = True
         Exit For
     End If
