@@ -17,7 +17,7 @@ Next
 
 ' 如果没有找到正在运行的进程，则执行批处理文件
 If Not isRunning Then
-    WshShell.Run "D:\FRP\strat_frp.bat", 0, False
+    WshShell.Run "D:\FRP\start_frp.bat", 0, False
 End If
 
 ' 清理
